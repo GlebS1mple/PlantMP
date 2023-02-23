@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__location">
+                    <img src="img/location.png" alt="Локация" class="header__locationimg">
+                    <p class="header__adress">г. Ульяновск, пр-т Нариманова, 77</p>
+                </div>
+                <div class="header__info">
+                    <img src="img/logo.png" alt="Логотип" class="header__logo">
+                    <form class="header__search search">
+                        <input placeholder="Поиск" type="text" class="search__input" />
+                        <button class="search__btn">
+                            <img src="img/Search_light.png" alt="Поиск" class="search__icon">
+                        </button>
+                        <button class="search__btn search__btn_mob">
+                            <img src="img/Search_light-1.png" alt="Поиск" class="search__icon">
+                        </button>
+                    </form>
+                    <a href="+79022444322" class="search__phone">+7 (902) 244-43-22</a>
+                    <button class="header__btn">Обратный звонок</button>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <ul class="header__list">
+                    <li><a href="#">Сварка металлоконструкций</a></li>
+                    <li><a href="#">Порошковая покраска металла</a></li>
+                    <li><a href="#">Порошковая покраска дисков</a></li>
+                    <li><a href="#">Пескоструйная обработка</a></li>
+                    <li><a href="#">Аргонная сварка металла</a></li>
+                    <li><a href="#">Блог</a></li>
+                </ul>
+            </div>
+            <div class="header__burgmenu">
+                <ul class="header__list _burg">
+                    <li><a href="#">Сварка металлоконструкций</a></li>
+                    <li><a href="#">Порошковая покраска металла</a></li>
+                    <li><a href="#">Порошковая покраска дисков</a></li>
+                    <li><a href="#">Пескоструйная обработка</a></li>
+                    <li><a href="#">Аргонная сварка металла</a></li>
+                    <li><a href="#">Блог</a></li>
+                </ul>
+                <div class="header__location _burg">
+                    <img src="img/location.png" alt="Локация" class="header__burglocation">
+                    <div class="header__locationflex">
+                        <p class="header__locationname">Адрес</p>
+                        <p class="header__burgadress">г. Ульяновск, пр-т Нариманова, 77</p>
+                    </div>
+                </div>
+                <a href="+79022444322" class="search__phone _burg">+7 (902) 244-43-22</a>
+                <button class="header__btn _burg">Обратный звонок</button>
+            </div>
+        </header>
+        <div class="mainblock">
+            <div class="popup">
+                <div class="container popup__container">
+                    <div class="popup__main">
+                        <img src="img/cross-blue.png" alt="Крестик(закрыть окно)" class="popup__close">
+                        <div class="popup__wrapper">
+                            <div class="popup__first">
+                                <p class="crumb popup__crumb">Обратный звонок</p>
+                            </div>
+                            <p class="popup__heading">Бесплатная консультация</p>
+                            <p class="popup__sometext">
+                                В рабочее время (пн-пт с 8:00 до 17:00) перезваниваем в течение 5 минут
+                            </p>
+                            <img src="img/svarka.jpg" alt="Сварка" class="popup__someimg">
+                            <form name="form" action="" class="popup__form">
+                                <div class="popup__flex">
+                                    <input required data-reg="^[А-ЯЁ][а-яё]*$" type="text" placeholder="Имя"
+                                        class="popup__name required">
+                                    <input value="" required type="text" placeholder="+7 --- --- -- --"
+                                        class="popup__phone tel required">
+                                </div>
+                                <button id="button" class="popup__button">Заказать звонок</button>
+                                <label class="popup__label">
+                                    <input required type="checkbox" class="popup__check required">
+                                    <p class="popup__about">Согласен на <a href="#"> обработку персональных данных</a>
+                                    </p>
+                                </label>
+                                <label class="popup__label">
+                                    <input type="checkbox" class="popup__check">
+                                    <p class="popup__about popup__about_opacity">Согласен на <a
+                                            href="#">рекламно-информационные
+                                            рассылки</a></p>
+                                </label>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main class="main">
+                <div class="swiper main__swiper">
+                    <img src="img/Rectangle.png" alt="Фон" class="main__back">
+                    <div class="container main__container">
+                        <div class="main__textblock">
+                            <h1 class="main__title">Сварка металлоконструкций</h1>
+                            <p class="main__text">Производство и монтаж металлоконструкций (есть СРО). Полный цикл
+                                изготовления:
+                                чертежи, сварка, контрольная сборка и покраска</p>
+                            <a href="#" class="main__link">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper main__wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="img/slider-1.jpg" alt="Сварка" class="swiper__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-1.jpg" alt="Сварка" class="swiper__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-1.jpg" alt="Сварка" class="swiper__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider-1.jpg" alt="Сварка" class="swiper__img">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="next">
+                        <img src="img/arrow.png" alt="Стрелка вправо" class="swiper__arrow">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="container main__container main__container_mob">
+                    <div class="main__textblock">
+                        <h1 class="main__title">Сварка металлоконструкций</h1>
+                        <p class="main__text">Производство и монтаж металлоконструкций (есть СРО). Полный цикл
+                            изготовления:
+                            чертежи, сварка, контрольная сборка и покраска</p>
+                        <a href="#" class="main__link">Подробнее</a>
+                    </div>
+                </div>
+            </main>
+            <section class="about">
+                <div class="container about__container">
+                    <p class="crumb">О нас</p>
+                    <h2 class="title about__title">Наша специализация — малые стальные формы. Это важное направление
+                        строительной
+                        отрасли
+                        и практически незаменимо для таких отраслей как телекоммуникации.</h2>
+                    <div class="about__textblock">
+                        <div class="about__points">
+                            <div class="about__point">
+                                <img src="img/Bucket.png" alt="Покраска" class="about__pointimg">
+                                <p class="about__pointtext">Собственная линия порошковой покраски и цех пескоструйной
+                                    обработки</p>
+                            </div>
+                            <div class="about__point">
+                                <img src="img/Buliding.png" alt="Здание" class="about__pointimg">
+                                <p class="about__pointtext">Есть СРО, можем произвести монтаж изделия на вашем объекте
+                                </p>
+                            </div>
+                            <div class="about__point">
+                                <img src="img/I3Dcube.png" alt="3д модель" class="about__pointimg">
+                                <p class="about__pointtext">На этапе проектирования мы используем пространственные
+                                    и 3D-модели,
+                                    что исключает появление ошибок</p>
+                            </div>
+                        </div>
+                        <div class="about__info">
+                            <p class="about__infotext">Наши конструкции имеют все те критерии качества, что и большие
+                                формы.
+                                Для производства используется сырьё только хорошего качества, гарантирующий прочность
+                                и надёжность
+                                конструкций.</p>
+                            <p class="about__infotext">Само производство происходит на современном оборудовании.
+                                Все работы
+                                выполняют
+                                опытные специалисты, которые работают в нашей компании на протяжении ряда лет, способны
+                                качественно
+                                выполнить любые сварные работы повышенной сложности в оговорённые сроки.</p>
+                            <p class="about__infotext">Помимо дизайнерских разработок для решения архитектурных задач
+                                мы занимаемся
+                                производством металлоконструкций промышленного назначения. К примеру, мы выполняли
+                                заказы
+                                по изготовлению: эстакад и трапов, площадок и опор для трубопроводов, разнообразных
+                                деталей типа
+                                анкеров и фундаментных болтов и т.д.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="advantages">
+                <div class="container advantages__container">
+                    <p class="crumb">Преимущества</p>
+                    <h3 class="advantages__title title">Почему с нами можно работать </h3>
+                    <img src="img/svarka.jpg" alt="Сварка" class="advantages__img">
+                    <div class="advantages__points">
+                        <div class="advantages__point">
+                            <p class="advantages__pointname">1000 м2</p>
+                            <p class="advantages__pointtext">Производственной площади и 5 производственных цеха</p>
+                        </div>
+                        <div class="advantages__point">
+                            <p class="advantages__pointname">70+</p>
+                            <p class="advantages__pointtext">Юридических лиц работают с нами на постоянной основе</p>
+                        </div>
+                        <div class="advantages__point">
+                            <p class="advantages__pointname">50%</p>
+                            <p class="advantages__pointtext">Примерно столько новых заказов приходят по рекомендациям
+                                наших
+                                заказчиков</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container services__container">
+                    <p class="crumb">Услуги</p>
+                    <div class="services__titleblock">
+                        <h4 class="services__title title">Что мы производим</h4>
+                        <p class="services__text">Цена напрямую зависит от объёма выполняемых работ, их сложности.
+                            Она определяется
+                            на этапе проектирования и фиксируется в договоре. Её изменение возможно при корректировании
+                            объёма
+                            работ. Изменение фиксируется дополнительным соглашением.</p>
+                    </div>
+                    <div class="services__grid">
+                        <a href="#" class="services__service service">
+                            <img src="img/forms.jpg" alt="Услуга" class="service__img">
+                            <div class="service__textblock">
+                                <p class="service__text">Фермы стальные</p>
+                                <div class="service__btn">
+                                    <img src="img/arrow-white.png" alt="Стрелка вправо" class="service__arrow">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="services__service service">
+                            <img src="img/tower.jpg" alt="Услуга" class="service__img">
+                            <div class="service__textblock">
+                                <p class="service__text">Опоры сотовой связи</p>
+                                <div class="service__btn">
+                                    <img src="img/arrow-white.png" alt="Стрелка вправо" class="service__arrow">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="services__service service">
+                            <img src="img/pallets.jpg" alt="Услуга" class="service__img">
+                            <div class="service__textblock">
+                                <p class="service__text">Изготовление разного рода поддонов</p>
+                                <div class="service__btn">
+                                    <img src="img/arrow-white.png" alt="Стрелка вправо" class="service__arrow">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="services__service service">
+                            <img src="img/frame.jpg" alt="Услуга" class="service__img">
+                            <div class="service__textblock">
+                                <p class="service__text">Изготовление различных металлических каркасов</p>
+                                <div class="service__btn">
+                                    <img src="img/arrow-white.png" alt="Стрелка вправо" class="service__arrow">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="services__service service">
+                            <img src="img/stairs.jpg" alt="Услуга" class="service__img">
+                            <div class="service__textblock">
+                                <p class="service__text">Производство каминных решёток и металлических лестниц</p>
+                                <div class="service__btn">
+                                    <img src="img/arrow-white.png" alt="Стрелка вправо" class="service__arrow">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="services__service service">
+                            <img src="img/fence.jpg" alt="Услуга" class="service__img">
+                            <div class="service__textblock">
+                                <p class="service__text">Создание небольших оград и больших заборов из металла</p>
+                                <div class="service__btn">
+                                    <img src="img/arrow-white.png" alt="Стрелка вправо" class="service__arrow">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="location">
+                <div class="container location__container">
+                    <p class="crumb location__crumb">Контакты</p>
+                    <div class="location__block">
+                        <h5 class="location__title title">Где наш завод и как к нам проехать</h5>
+                        <div class="location__adressblock">
+                            <div class="location__adress">
+                                <img src="img/location-white.png" alt="Локация" class="location__icon">
+                                <div class="location__adressblock">
+                                    <p class="location__adresstitle">Адрес</p>
+                                    <p class="location__adresstext">г. Ульяновск, пр-т Нариманова, 77</p>
+                                </div>
+                            </div>
+                            <a href="tel:+79022444322" class="location__phone">+7 (902) 244-43-22</a>
+                            <ul class="location__links">
+                                <li><a href="#"><img src="img/vk-white.png" alt="Вконтакте"
+                                            class="location__linkicon"></a>
+                                </li>
+                                <li><a href="#"><img src="img/telegramm-white.png" alt="Телеграмм"
+                                            class="location__linkicon"></a>
+                                </li>
+                                <li><a href="#"><img src="img/youtube-white.png" alt="Ютуб"
+                                            class="location__linkicon"></a>
+                                </li>
+                                <li><a href="#"><img src="img/instagramm-white.png" alt="Инстаграмм"
+                                            class="location__linkicon"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="map" class="location__map"></div>
+            </section>
+            <section class="blog">
+                <div class="container blog__container">
+                    <p class="crumb">Новости</p>
+                    <div class="blog__opening">
+                        <h6 class="title blog__title">Блог</h6>
+                        <a href="#" class="blog__mainlink">Смотреть все статьи</a>
+                    </div>
+                    <div class="blog__flex">
+                        <div class="blog__block">
+                            <img src="img/slider-1.jpg" alt="Сварка" class="blog__img">
+                            <div class="blog__textblock">
+                                <a href="#" class="blog__link">Сварка металлоконструкций</a>
+                                <p class="blog__name">Статья о сварке</p>
+                            </div>
+                        </div>
+                        <div class="swiper blog__swiper">
+
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper blog__wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide blog__slide">
+                                    <div class="blog__article article">
+                                        <img src="img/disk-1.jpg" alt="Диски" class="article__img">
+                                        <a href="#" class="article__link">Порошковая покраска металла</a>
+                                        <p class="article__name">Полимеризация краски в сушильных камерах</p>
+                                        <p class="article__text">
+                                            Порошковая краска после нанесения проходит полимеризацию в печи для её
+                                            превращения в
+                                            плотный
+                                            лакокрасочный слой...
+                                        </p>
+                                        <div class="article__info">
+                                            <p class="article__date">21.04.2022</p>
+                                            <div class="article__stats">
+                                                <div class="article__stat">
+                                                    <img src="img/eye.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">321</p>
+                                                </div>
+                                                <div class="article__stat">
+                                                    <img src="img/Message.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide blog__slide">
+                                    <div class="blog__article article">
+                                        <img src="img/disk-2.jpg" alt="Диски" class="article__img">
+                                        <a href="#" class="article__link">Порошковая покраска металла</a>
+                                        <p class="article__name">Полимеризация краски в сушильных камерах</p>
+                                        <p class="article__text">
+                                            Порошковая краска после нанесения проходит полимеризацию в печи для её
+                                            превращения в
+                                            плотный
+                                            лакокрасочный слой...
+                                        </p>
+                                        <div class="article__info">
+                                            <p class="article__date">21.04.2022</p>
+                                            <div class="article__stats">
+                                                <div class="article__stat">
+                                                    <img src="img/eye.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">214</p>
+                                                </div>
+                                                <div class="article__stat">
+                                                    <img src="img/Message.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide blog__slide">
+                                    <div class="blog__article article">
+                                        <img src="img/disk-2.jpg" alt="Диски" class="article__img">
+                                        <a href="#" class="article__link">Порошковая покраска металла</a>
+                                        <p class="article__name">Полимеризация краски в сушильных камерах</p>
+                                        <p class="article__text">
+                                            Порошковая краска после нанесения проходит полимеризацию в печи для её
+                                            превращения в
+                                            плотный
+                                            лакокрасочный слой...
+                                        </p>
+                                        <div class="article__info">
+                                            <p class="article__date">21.04.2022</p>
+                                            <div class="article__stats">
+                                                <div class="article__stat">
+                                                    <img src="img/eye.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">214</p>
+                                                </div>
+                                                <div class="article__stat">
+                                                    <img src="img/Message.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide blog__slide">
+                                    <div class="blog__article article">
+                                        <img src="img/disk-1.jpg" alt="Диски" class="article__img">
+                                        <a href="#" class="article__link">Порошковая покраска металла</a>
+                                        <p class="article__name">Полимеризация краски в сушильных камерах</p>
+                                        <p class="article__text">
+                                            Порошковая краска после нанесения проходит полимеризацию в печи для её
+                                            превращения в
+                                            плотный
+                                            лакокрасочный слой...
+                                        </p>
+                                        <div class="article__info">
+                                            <p class="article__date">21.04.2022</p>
+                                            <div class="article__stats">
+                                                <div class="article__stat">
+                                                    <img src="img/eye.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">321</p>
+                                                </div>
+                                                <div class="article__stat">
+                                                    <img src="img/Message.png" alt="Просмотры" class="article__statimg">
+                                                    <p class="article__statnum">25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- If we need pagination -->
+
+                            <!-- If we need navigation buttons -->
+
+                        </div>
+                        <a href="#" class="blog__mainlink blog__mainlink_mob">Смотреть все статьи</a>
+                        <div class="blog__navigation">
+                            <div class="blog__prev">
+                                <img src="img/arrow.png" alt="Стрелка вправо" class="swiper__arrow blog__arrow_prev">
+                            </div>
+                            <div class="blog__pagination"></div>
+                            <div class="blog__next">
+                                <img src="img/arrow.png" alt="Стрелка вправо" class="swiper__arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__main">
+                    <img src="img/logo.png" alt="Логотип" class="footer__logo">
+                    <ul class="footer__list">
+                        <li>Услуги</li>
+                        <li><a href="#">Сварка металлоконструкций</a></li>
+                        <li><a href="#">Порошковая покраска металла</a></li>
+                        <li><a href="#">Порошковая покраска дисков</a></li>
+                        <li><a href="#">Пескоструйная обработка</a></li>
+                        <li><a href="#">Аргонная сварка металла</a></li>
+                    </ul>
+                    <ul class="footer__list footer__list_right">
+                        <li>О компании</li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="location__adressblock">
+                        <a href="tel:+79022444322" class="location__phone footer__phone">+7 (902) 244-43-22</a>
+
+                        <div class="location__adress footer__adress">
+                            <img src="img/location.png" alt="Локация" class="location__icon">
+                            <div class="location__adressblock footer__adressblock">
+                                <p class="location__adresstitle footer__adresstitle">Адрес</p>
+                                <p class="location__adresstext footer__adresstext">г. Ульяновск, пр-т Нариманова, 77</p>
+                            </div>
+                        </div>
+                        <ul class="location__links footer__links">
+                            <li><a href="#"><img src="img/vk-3.png" alt="Вконтакте" class="location__linkicon"></a>
+                            </li>
+                            <li><a href="#"><img src="img/telegramm-3.png" alt="Телеграмм"
+                                        class="location__linkicon"></a>
+                            </li>
+                            <li><a href="#"><img src="img/youtube-3.png" alt="Ютуб" class="location__linkicon"></a>
+                            </li>
+                            <li><a href="#"><img src="img/instagramm-3.png" alt="Инстаграмм"
+                                        class="location__linkicon"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__policy">
+                    <p class="footer__copy">© 2022 PlantMP</p>
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&v=weekly" defer></script>
+
+</body>
+
+</html>
